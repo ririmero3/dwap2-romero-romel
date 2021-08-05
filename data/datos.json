@@ -1,0 +1,15 @@
+
+
+    [{
+        "img":"img/art1.jpeg",
+        "descripcion":"Set de cuchillos u utensilios ",
+        "precio":"$50.00"
+    },{
+        "img":"img/art2.jpg",
+        "descripcion":"Master class",
+        "precio":"$60.00"
+    },{
+        "img":"img/art3.jpg",
+        "descripcion":"Hagamos detox by Chef",
+        "precio":"$70.00"
+    }]

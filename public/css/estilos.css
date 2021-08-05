@@ -1,0 +1,354 @@
+body{
+    background: #000;
+}
+#head{
+    background:url(../img/img2.jpg) ;
+    height: 600px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#head img{
+    height: 100%;
+}
+
+#head::before{
+    content: '';
+    background: #000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+#titulohead{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* border: 3px solid white; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+/*
+#titulohead div{
+    justify-content: center;
+    align-items: center;
+    
+}
+*/
+#head h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+}
+#head h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 30px;
+}
+
+#btnhead{
+    
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: rgba(213, 68, 68, 0.381);
+    border: rgb(0, 0, 0) 10px double;
+    border-radius: 5px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    border: rgb(0, 0, 0) 5px double;
+}
+#btnhead:hover{
+    background: rgba(213, 68, 68, 0.666);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    
+}
+
+@media screen and (max-width:800px){
+    #head {
+        height: 300px;
+    }
+    #head h1{
+    
+    font-size: 40px;
+    }
+    #head h3{
+        font-size: 18px;
+    }
+    #btnhead{
+   
+    padding: 10px 30px;
+    
+    font-size: 14px;
+    
+    }
+}
+
+#sect2{
+/*    border: 3px solid red;*/
+    color: black;
+    background: white;
+    display: flex;
+}
+
+#box2_sect2 h3{
+    color: rgba(213, 68, 68, 0.75);
+}
+#contenedor_sect2{
+    width: 80%;
+    flex-wrap:nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+/*    border: 3px solid blue;*/
+    display: flex;
+}
+
+#box1_sect2{
+    text-align: center;
+    display:block;
+    margin:auto;
+    width: 50%;
+}
+#box2_sect2{
+    text-align: justify;
+    width: 50%;
+}
+#box2_sect2{
+    font-size: 20px;
+}
+
+#box2_sect2 button{
+     background: rgba(213, 68, 68, 0.75);
+    border-radius: 5px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    border: white 10px double;
+    padding: 4px 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+#box2_sect2 button:hover{
+    
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+
+#sect2 div img{
+    padding: 15px;
+    border: 4px solid rgba(213, 68, 68, 0.75);
+    border-radius: 5px;
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+#sect2 div img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+@media screen and (max-width:800px){
+    #sect2{
+        padding: 10px;
+    }
+    #contenedor_sect2{
+         width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    #box1_sect2{
+    
+    width: 70%;
+    }
+    #box2_sect2{
+        
+        width: 70%;
+    }
+    #sect2 div img{
+        padding: 0px;
+    }
+}
+
+#sect_3{ 
+    background: #343a40;
+    color: white;
+    padding: 10px;
+/*    border: 1px solid red;*/
+}
+
+#box1_sect3{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+/*    border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cajon p{
+    text-align: justify;
+}
+
+.cajon{
+    text-align: center;
+    margin: 10px;
+/*    border: 1px solid green;*/
+    padding: 10px;
+}
+
+.cajon h1{
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: left
+}
+.cajon h3{
+    
+    font-size: 25px;
+    color: yellow;
+    text-align: left;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.cajon h3:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    cursor: pointer;
+}
+.cajon button{
+     background: rgba(213, 68, 68, 0.75);
+    border-radius: 5px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    border: #343a40 10px double;
+    padding: 4px 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.cajon button:hover{
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+.cajon img{
+    border-radius: 3px;
+    padding: 15px;
+/*    border: 4px solid rgba(213, 68, 68, 0.75);*/
+    border-radius: 5px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+    cursor: pointer;
+}
+.cajon img:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.cajon hr{
+    height: 1.5px;
+      margin-left: 0%;
+      margin-right: 30%;
+      background-color: rgba(213, 68, 68, 0.75);
+}
+
+@media screen and (max-width:800px){
+    .cajon{
+        width: 55%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width:800px){
+    .cajon{
+        width: 55%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width:625px){
+    .cajon{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+footer{
+    padding: 20px;
+    background: white;
+}
+footer h2 i{
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(213, 68, 68, 0.75);
+}
+
+#copy{
+    background: #343a40;
+    color: #bebddb;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+hr{
+  height: 2px;
+  margin-left: 0%;
+  margin-right: 50%;
+  background-color: rgba(213, 68, 68, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
